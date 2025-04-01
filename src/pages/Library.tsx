@@ -6,27 +6,27 @@ import { Link } from "react-router-dom";
 
 const Library = () => {
   const games = [
-    { id: 1, name: "GTA San Andreas", image: "/lovable-uploads/984ee00b-ba55-4c36-8077-16fda00ea083.png" },
-    { id: 2, name: "The Binding of Isaac", image: "/lovable-uploads/0929ba84-48f4-49a7-9cd0-0ce033cfbe11.png" },
-    { id: 3, name: "Forza Horizon", image: "/lovable-uploads/b2b18185-53dc-485c-87d9-6e06070becb2.png" },
-    { id: 4, name: "Hades", image: "/lovable-uploads/984ee00b-ba55-4c36-8077-16fda00ea083.png" },
-    { id: 5, name: "Elden Ring", image: "/lovable-uploads/0929ba84-48f4-49a7-9cd0-0ce033cfbe11.png" },
-    { id: 6, name: "Balatro", image: "/lovable-uploads/b2b18185-53dc-485c-87d9-6e06070becb2.png" },
-    { id: 7, name: "Doom", image: "/lovable-uploads/984ee00b-ba55-4c36-8077-16fda00ea083.png" },
-    { id: 8, name: "Spider-Man 2", image: "/lovable-uploads/0929ba84-48f4-49a7-9cd0-0ce033cfbe11.png" },
-    { id: 9, name: "Bloodborne", image: "/lovable-uploads/b2b18185-53dc-485c-87d9-6e06070becb2.png" },
-    { id: 10, name: "Assassin's Creed", image: "/lovable-uploads/984ee00b-ba55-4c36-8077-16fda00ea083.png" },
-    { id: 11, name: "GTA V", image: "/lovable-uploads/0929ba84-48f4-49a7-9cd0-0ce033cfbe11.png" },
-    { id: 12, name: "Helldivers", image: "/lovable-uploads/b2b18185-53dc-485c-87d9-6e06070becb2.png" },
-    { id: 13, name: "Monster Hunter", image: "/lovable-uploads/984ee00b-ba55-4c36-8077-16fda00ea083.png" },
-    { id: 14, name: "GTA VI", image: "/lovable-uploads/0929ba84-48f4-49a7-9cd0-0ce033cfbe11.png" },
-    { id: 15, name: "The Last of Us", image: "/lovable-uploads/b2b18185-53dc-485c-87d9-6e06070becb2.png" },
-    { id: 16, name: "Hades 2", image: "/lovable-uploads/984ee00b-ba55-4c36-8077-16fda00ea083.png" },
-    { id: 17, name: "Half-Life 3", image: "/lovable-uploads/0929ba84-48f4-49a7-9cd0-0ce033cfbe11.png" },
-    { id: 18, name: "Project L", image: "/lovable-uploads/b2b18185-53dc-485c-87d9-6e06070becb2.png" },
-    { id: 19, name: "Call of Duty", image: "/lovable-uploads/984ee00b-ba55-4c36-8077-16fda00ea083.png" },
-    { id: 20, name: "Need for Speed", image: "/lovable-uploads/0929ba84-48f4-49a7-9cd0-0ce033cfbe11.png" },
-    { id: 21, name: "Gang Beasts", image: "/lovable-uploads/b2b18185-53dc-485c-87d9-6e06070becb2.png" }
+    { id: 1, name: "Hades", image: "/imgcebola/img-1.png" },
+    { id: 2, name: "Celeste", image: "/imgcebola/img-2.png" },
+    { id: 3, name: "Doom", image: "/imgcebola/img-3.png" },
+    { id: 4, name: "The Binding of Isaac", image: "/imgcebola/img-4.png" },
+    { id: 5, name: "GTA San Andreas", image: "/imgcebola/img-5.png" },
+    { id: 6, name: "Assassin's Creed", image: "/imgcebola/img-6.png" },
+    { id: 7, name: "Spider-Man 2", image: "/imgcebola/img-7.png" },
+    { id: 8, name: "Bloodborne", image: "/imgcebola/img-8.png" },
+    { id: 9, name: "Monster Hunter", image: "/imgcebola/img-9.png" },
+    { id: 10, name: "GTA V", image: "/imgcebola/img-12.png" },
+    { id: 11, name: "Helldivers", image: "/imgcebola/img-13.png" },
+    { id: 12, name: "Hades 2", image: "/imgcebola/img-14.png" },
+    { id: 13, name: "GTA VI", image: "/imgcebola/img-15.png" },
+    { id: 14, name: "The Last of Us", image: "/imgcebola/img-16.png" },
+    { id: 15, name: "Call of Duty", image: "/imgcebola/img-17.png" },
+    { id: 16, name: "Need for Speed", image: "/imgcebola/img-18.png" },
+    { id: 17, name: "Half-Life 3", image: "/imgcebola/img-19.png" },
+    { id: 18, name: "Yakuza", image: "/imgcebola/img-20.png" },
+    { id: 19, name: "Terraria", image: "/imgcebola/img-21.png" },
+    { id: 20, name: "Project L", image: "/imgcebola/img-22.png" },
+    { id: 21, name: "Sons of the Forest", image: "/imgcebola/img-23.png" }
   ];
 
   return (

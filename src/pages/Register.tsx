@@ -38,7 +38,7 @@ const Register = () => {
                 <div className="text-black">I'm not a robot</div>
               </div>
               <div className="flex justify-end">
-                <img src="/lovable-uploads/b2b18185-53dc-485c-87d9-6e06070becb2.png" alt="reCAPTCHA" className="h-10" />
+                <img src="/imgcebola/img-1.png" alt="reCAPTCHA" className="h-10" />
               </div>
             </div>
           </div>

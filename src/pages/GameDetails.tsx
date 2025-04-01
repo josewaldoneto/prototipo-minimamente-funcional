@@ -12,11 +12,11 @@ const GameDetails = () => {
     id: 13,
     name: "Grand Theft Auto VI",
     images: [
-      "/lovable-uploads/984ee00b-ba55-4c36-8077-16fda00ea083.png",
-      "/lovable-uploads/0929ba84-48f4-49a7-9cd0-0ce033cfbe11.png",
-      "/lovable-uploads/b2b18185-53dc-485c-87d9-6e06070becb2.png",
-      "/lovable-uploads/984ee00b-ba55-4c36-8077-16fda00ea083.png",
-      "/lovable-uploads/0929ba84-48f4-49a7-9cd0-0ce033cfbe11.png"
+      "/imgcebola/img-1.png",
+      "/imgcebola/img-1.png",
+      "/imgcebola/img-1.png",
+      "/imgcebola/img-1.png",
+      "/imgcebola/img-1.png"
     ],
     price: "R$ 599,87",
     description: "Sobre Grand Theft Auto VI:",
@@ -46,7 +46,7 @@ const GameDetails = () => {
         
         <div className="game-details">
           <img 
-            src="/lovable-uploads/984ee00b-ba55-4c36-8077-16fda00ea083.png" 
+            src="./imgcebola/img-1.png"
             alt={game.name} 
             className="game-hero rounded-lg"
           />

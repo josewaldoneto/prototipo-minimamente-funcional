@@ -37,7 +37,7 @@ const Contact = () => {
           
           <div>
             <div className="flex justify-center">
-              <img src="/lovable-uploads/e6a2989f-c903-413d-afd2-ead53443d2e2.png" alt="Logo" className="w-[300px] h-[300px]" />
+              <img src="./imgcebola/img-1.png" alt="Logo" className="w-[300px] h-[300px]" />
             </div>
             
             <div className="contact-info">
@@ -51,7 +51,7 @@ const Contact = () => {
         
         <div className="map-container">
           <img 
-            src="/lovable-uploads/b2b18185-53dc-485c-87d9-6e06070becb2.png" 
+            src="./imgcebola/img-1.png"
             alt="Mapa com localização" 
             className="map-image" 
           />
