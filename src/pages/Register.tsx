@@ -31,13 +31,15 @@ const Register = () => {
             <input type="password" id="confirm-password" />
           </div>
           
-          <div className="captcha w-full max-w-[600px] text-center">
-            <div className="flex items-start">
-              <input type="checkbox" className="mr-2 mt-1" />
-              <div>I'm not a robot</div>
-            </div>
-            <div className="flex justify-end">
-              <img src="/lovable-uploads/b2b18185-53dc-485c-87d9-6e06070becb2.png" alt="reCAPTCHA" className="h-10" />
+          <div className="w-full max-w-[600px] text-center my-6">
+            <div className="bg-white p-4 rounded">
+              <div className="flex items-start">
+                <input type="checkbox" className="mr-2 mt-1" />
+                <div className="text-black">I'm not a robot</div>
+              </div>
+              <div className="flex justify-end">
+                <img src="/lovable-uploads/b2b18185-53dc-485c-87d9-6e06070becb2.png" alt="reCAPTCHA" className="h-10" />
+              </div>
             </div>
           </div>
           

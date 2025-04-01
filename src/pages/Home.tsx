@@ -43,7 +43,7 @@ const Home = () => {
         />
         
         <div>
-          <div className="category-title">Em Alta</div>
+          <div className="section-title">Em Alta</div>
           <div className="grid grid-cols-3 gap-4">
             {featuredGames.map(game => (
               <Link to={`/game/${game.id}`} key={game.id}>
@@ -55,17 +55,17 @@ const Home = () => {
           </div>
         </div>
         
-        <div className="grid grid-cols-2 gap-4 my-8">
-          <div className="bg-light-blue text-black p-8 rounded-lg text-center">
-            <h2 className="text-xl font-bold">INDIE</h2>
+        <div className="category-buttons">
+          <div className="category-button">
+            <h2>INDIE</h2>
           </div>
-          <div className="bg-light-blue text-black p-8 rounded-lg text-center">
-            <h2 className="text-xl font-bold">AÇÃO</h2>
+          <div className="category-button">
+            <h2>AÇÃO</h2>
           </div>
         </div>
         
         <div>
-          <div className="category-title">Promoções</div>
+          <div className="section-title">Promoções</div>
           <div className="grid grid-cols-3 gap-4">
             {promoGames.map(game => (
               <Link to={`/game/${game.id}`} key={game.id}>
@@ -78,7 +78,7 @@ const Home = () => {
         </div>
         
         <div>
-          <div className="category-title">Recém lançados</div>
+          <div className="section-title">Recém lançados</div>
           <div className="grid grid-cols-3 gap-4">
             {newReleases.map(game => (
               <Link to={`/game/${game.id}`} key={game.id}>

@@ -15,11 +15,13 @@ const Footer = ({ showBackButton = false, backToTop = false }: FooterProps) => {
     }
   };
 
+  const buttonText = backToTop ? "Voltar ao topo" : "Voltar";
+
   return (
     <footer className="footer">
       {showBackButton && (
         <button className="back-button" onClick={handleBackClick}>
-          {backToTop ? "Voltar ao topo" : "Voltar"}
+          {buttonText}
         </button>
       )}
     </footer>

@@ -33,8 +33,8 @@ const Index = () => {
     <div>
       <Header />
       <main className="page-content">
-        <div className="bg-light-blue text-black p-4 rounded-lg mb-8">
-          <h1 className="text-2xl font-bold">Jogos De Ação</h1>
+        <div className="action-title">
+          <h1 className="font-bold">Jogos De Ação</h1>
         </div>
 
         <div className="game-grid">

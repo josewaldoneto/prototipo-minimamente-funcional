@@ -27,14 +27,14 @@ const About = () => {
           />
         </div>
         
-        <div className="team-grid">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
           {teamMembers.map(member => (
-            <div key={member.id} className="team-card">
-              <div className="team-image mx-auto">
+            <div key={member.id} className="text-center">
+              <div className="w-[100px] h-[100px] mx-auto rounded-2xl overflow-hidden">
                 <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
               </div>
-              <h3 className="team-name">{member.name}</h3>
-              <p className="team-role">{member.role}</p>
+              <h3 className="mt-2 font-bold">{member.name}</h3>
+              <p className="text-sm">{member.role}</p>
             </div>
           ))}
         </div>
